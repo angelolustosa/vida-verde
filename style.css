@@ -1,0 +1,30 @@
+/* Remove margens e padding do body para evitar rolagem */
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Impede rolagem horizontal */
+}
+
+/* Container do banner */
+.banner-container {
+    width: 100vw; /* Ocupa toda a largura da tela */
+    height: 200px; /* Altura fixa */
+    overflow: hidden;
+}
+
+/* Imagem do banner */
+.banner-img {
+    width: 100%; /* Garante que ocupe toda a largura */
+    height: 100%;
+    object-fit: cover; /* Corta a imagem sem distorcer */
+    object-position: center; /* Centraliza a parte visível */
+    display: block;
+}
+
+
+ /* Ajusta altura do carrossel */
+ .carousel-item img {
+    height: 400px;
+    object-fit: cover; /* Corta a imagem sem distorcer */
+    object-position: center; /* Mantém o foco centralizado */
+}
