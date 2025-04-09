@@ -28,3 +28,13 @@ body, html {
     object-fit: cover; /* Corta a imagem sem distorcer */
     object-position: center; /* Mantém o foco centralizado */
 }
+
+.carousel-caption {
+    background-color: #ffffffb0;
+    border-radius: 8px;
+    color: darkgreen;
+}
+
+.caption-carrousel {
+    color: saddlebrown;
+}
